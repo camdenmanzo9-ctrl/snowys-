@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "snowys",
+  "version": "${version}",
+  "name": "Snowy's",
+  "description": "Client mod: HUD modules, ClickGUI (Right Shift), visuals, and panels for Balance HUD and Snowy's Dashboard data.",
+  "authors": ["2amsnowy"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.snowy.client.SnowysClient"] },
+  "mixins": ["snowys.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~26.1", "java": ">=25", "fabric-api": "*" }
+}
